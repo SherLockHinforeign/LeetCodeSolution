@@ -1,4 +1,4 @@
-package one;
+package oneToTen;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ import java.util.Map;
  *
  */
 
-public class Solution {
+public class Solution1 {
 
 	public static void main(String[] args) {
 		// œyÔ‡°¸Àý

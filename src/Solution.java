@@ -13,12 +13,18 @@
 
 public class Solution {
 
+	/**
+	 * 	²âÊÔ°¸Àý
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		// œyÔ‡°¸Àý
+		
 		
 	}
 	
-	// Solution1
+	/**
+	 * 	
+	 */
 	public static void solution1() {
 		
 	}

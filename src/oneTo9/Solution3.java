@@ -1,4 +1,4 @@
-package oneToTen;
+package oneTo9;
 
 import java.util.HashMap;
 import java.util.HashSet;

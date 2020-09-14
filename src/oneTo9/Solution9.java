@@ -1,4 +1,4 @@
-package oneToTen;
+package oneTo9;
 
 /**
  * @ClassName: Solution

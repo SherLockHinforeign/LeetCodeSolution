@@ -1,16 +1,16 @@
-package oneToTen;
+package oneTo9;
 
 /**
  * @ClassName: Solution
  * @Description: 
- * 		题目：给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。
- * 		输入： -123
- * 		输出：-321
- * 		注意：数值范围为 [−2^31,  2^31 − 1]，如果反转后整数溢出那么就返回 0。
+ * 		题目：给出一�? 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转�??
+ * 		输入�? -123
+ * 		输出�?-321
+ * 		注意：数值范围为 [�?2^31,  2^31 �? 1]，如果反转后整数溢出那么就返�? 0�?
  * 
  * @author yjx
  * @date 2020-9-14
- * @Note Commit Message ： 12位时间加一个 . 加项目名LeetCode（例：202009111720.LeetCode）
+ * @Note Commit Message �? 12位时间加�?�? . 加项目名LeetCode（例�?202009111720.LeetCode�?
  */
 public class Solution7 {
 
@@ -27,8 +27,8 @@ public class Solution7 {
 
 	/**
 	 * @Title: solution1 
-	 * @Description: TODO(这里用一句话描述这个方法的作用) 
-	 * @param x 输入一个待翻转的整数 
+	 * @Description: TODO(这里用一句话描述这个方法的作�?) 
+	 * @param x 输入�?个待翻转的整�? 
 	 * @return int 返回反转后的整数
 	 * @throws
 	 */
@@ -48,7 +48,7 @@ public class Solution7 {
 
 	/**
 	 * @Title: solution2
-	 * @Description: TODO(这里用一句话描述这个方法的作用)
+	 * @Description: TODO(这里用一句话描述这个方法的作�?)
 	 * @param x
 	 * @return int 
 	 * @throws

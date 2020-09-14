@@ -9,14 +9,15 @@
  * 
  * @author yjx
  * @date 2020-9-14
+ * @Note Commit Message ： 12位时间加一个 . 加项目名LeetCode（例：202009111720.LeetCode）
  */
 public class Solution {
 
 	/**
-	 * @Title: main 
-	 * @Description: 提供测试案例
-	 * @param args 参数
-	 * @return void 返回类型 
+	 * @Title: main
+	 * @Description: TODO
+	 * @param @param args
+	 * @return void
 	 * @throws
 	 */
 	public static void main(String[] args) {
@@ -24,10 +25,10 @@ public class Solution {
 	}
 
 	/**
-	 * @Title: solution1 
-	 * @Description: TODO(这里用一句话描述这个方法的作用) 
-	 * @param 参数 
-	 * @return void 返回类型 
+	 * @Title: solution1
+	 * @Description: TODO
+	 * @param 
+	 * @return void
 	 * @throws
 	 */
 	public static void solution1() {

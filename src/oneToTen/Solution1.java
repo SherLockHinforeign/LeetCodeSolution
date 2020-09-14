@@ -17,9 +17,9 @@ public class Solution1 {
 
 	public static void main(String[] args) {
 		// 測試案例
-		
+
 	}
-	
+
 	/**
 	 * solution1
 	 *  	暴力破解
@@ -29,11 +29,11 @@ public class Solution1 {
 	 */
 	public static int[] solution1(int[] nums, int target) {
 		int[] solution = new int[2];
-		for(int i = 0; i<nums.length; i++) {
+		for (int i = 0; i < nums.length; i++) {
 			int first = nums[i];
 			int second = target - first;
-			for(int j = i+1; j<nums.length; j++) {
-				if(nums[j] == second) {
+			for (int j = i + 1; j < nums.length; j++) {
+				if (nums[j] == second) {
 					solution[0] = i;
 					solution[1] = j;
 				}
@@ -41,7 +41,7 @@ public class Solution1 {
 		}
 		return solution;
 	}
-	
+
 	/**
 	 *  solution2
 	 *  	兩邊哈希表
@@ -50,18 +50,18 @@ public class Solution1 {
 	 * @return
 	 */
 	public static int[] solution2(int[] nums, int target) {
-		Map<Integer,Integer> map = new HashMap<Integer, Integer>();
-		for(int i = 0; i<nums.length; i++) {
+		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		for (int i = 0; i < nums.length; i++) {
 			map.put(nums[i], i);
 		}
-		for(int j = 0; j<nums.length; j++) {
+		for (int j = 0; j < nums.length; j++) {
 			int first = nums[j];
 			int second = target - first;
-			if(map.containsKey(second) && map.get(second) != j) {
-				return new int[] {j, map.get(second)};
+			if (map.containsKey(second) && map.get(second) != j) {
+				return new int[] { j, map.get(second) };
 			}
 		}
 		throw new IllegalArgumentException("沒有答案");
 	}
-	
+
 }

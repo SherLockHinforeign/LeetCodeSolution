@@ -10,6 +10,7 @@ package oneToTen;
  * 
  * @author yjx
  * @date 2020-9-14
+ * @Note Commit Message ： 12位时间加一个 . 加项目名LeetCode（例：202009111720.LeetCode）
  */
 public class Solution7 {
 
@@ -33,16 +34,18 @@ public class Solution7 {
 	 */
 	public static int solution1(int x) {
 		int rev = 0;
-        while (x != 0) {
-            int pop = x % 10;
-            x /= 10;
-            if (rev > Integer.MAX_VALUE/10 || (rev == Integer.MAX_VALUE / 10 && pop > 7)) return 0;
-            if (rev < Integer.MIN_VALUE/10 || (rev == Integer.MIN_VALUE / 10 && pop < -8)) return 0;
-            rev = rev * 10 + pop;
-        }
-        return rev;
+		while (x != 0) {
+			int pop = x % 10;
+			x /= 10;
+			if (rev > Integer.MAX_VALUE / 10 || (rev == Integer.MAX_VALUE / 10 && pop > 7))
+				return 0;
+			if (rev < Integer.MIN_VALUE / 10 || (rev == Integer.MIN_VALUE / 10 && pop < -8))
+				return 0;
+			rev = rev * 10 + pop;
+		}
+		return rev;
 	}
-	
+
 	/**
 	 * @Title: solution2
 	 * @Description: TODO(这里用一句话描述这个方法的作用)

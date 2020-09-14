@@ -1,15 +1,15 @@
 package oneToTen;
 
-
 /**
  * 
- * @author 73503 题目：给定两个大小为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。
- *         请你找出这两个正序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 你可以假设 nums1 和 nums2
- *         不会同时为空。
+ * @author 73503 
+ *	题目：给定两个大小为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。
+ *	请你找出这两个正序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。 你可以假设 nums1 和 nums2
+ * 	不会同时为空。
  * 
- *         实例： 輸入：nums1 = [1, 2] nums2 = [3, 4] 輸出：中位数是 (2 + 3)/2 = 2.5
+ * 	实例： 輸入：nums1 = [1, 2] nums2 = [3, 4] 輸出：中位数是 (2 + 3)/2 = 2.5
  *
- *         Commit Message ： 12位时间加一个 . 加项目名LeetCode（例：202009111720.LeetCode）
+ *  Commit Message ： 12位时间加一个 . 加项目名LeetCode（例：202009111720.LeetCode）
  */
 
 public class Solution4 {

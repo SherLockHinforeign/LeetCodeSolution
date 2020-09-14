@@ -1,3 +1,4 @@
+package oneToTen;
 
 /**
  * @ClassName: Solution
@@ -10,7 +11,7 @@
  * @author yjx
  * @date 2020-9-14
  */
-public class Solution {
+public class Solution8 {
 
 	/**
 	 * @Title: main 

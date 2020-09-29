@@ -1,6 +1,6 @@
 package twentyTo29;
 
-import twentyTo29.Solution24.ListNode;
+
 
 /**
  * @ClassName: Solution

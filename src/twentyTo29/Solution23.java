@@ -2,7 +2,6 @@ package twentyTo29;
 
 import java.util.PriorityQueue;
 
-import twentyTo29.Solution21.ListNode;
 
 /**
  * @ClassName: Solution
